@@ -1,0 +1,37 @@
+/* amiko */
+
+@font-face {
+    font-family: 'Amiko';
+    src: url('../fonts/amiko/Amiko-Bold.eot');
+    src: local('Amiko Bold'), local('Amiko-Bold'),
+        url('../fonts/amiko/Amiko-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/amiko/Amiko-Bold.woff2') format('woff2'),
+        url('../fonts/amiko/Amiko-Bold.woff') format('woff'),
+        url('../fonts/amiko/Amiko-Bold.ttf') format('truetype');
+    font-weight:700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Amiko';
+    src: url('../fonts/amiko/Amiko-Regular.eot');
+    src: local('Amiko'), local('Amiko-Regular'),
+        url('../fonts/amiko/Amiko-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/amiko/Amiko-Regular.woff2') format('woff2'),
+        url('../fonts/amiko/Amiko-Regular.woff') format('woff'),
+        url('../fonts/amiko/Amiko-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Amiko';
+    src: url('../fonts/amiko/Amiko-SemiBold.eot');
+    src: local('Amiko SemiBold'), local('Amiko-SemiBold'),
+        url('../fonts/amiko/Amiko-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/amiko/Amiko-SemiBold.woff2') format('woff2'),
+        url('../fonts/amiko/Amiko-SemiBold.woff') format('woff'),
+        url('../fonts/amiko/Amiko-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}

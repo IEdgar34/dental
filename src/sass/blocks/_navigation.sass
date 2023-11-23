@@ -1,0 +1,33 @@
+.navigation
+    font-family: 'Benzin'
+    display: flex
+    align-items: center
+    &__list
+        display: flex
+        gap: 30px
+    &__item
+        position: relative 
+        &::after
+            content: ""
+            position: absolute
+            bottom: -5px
+            display: block
+            width: 0
+            height: 2px
+            background-color: #fff
+            transition: 0.5s all
+        &:hover
+            &::after
+                width: 100%
+                   
+
+    &__link
+        font-weight: 600
+        color: #F4F4F4
+        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.50)
+        font-size: 19px
+        font-style: normal
+        line-height: normal
+        &_footer
+            color: $title-color-dark    
+        
