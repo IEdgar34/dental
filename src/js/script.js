@@ -53,7 +53,11 @@ $(document).ready(function(){
     
 
   
-   
+   $('.pupop__open').on('click',function(){
+        
+        $(this).toggleClass('pupop__open_active')
+        .parents('.pupop').toggleClass('pupop_active')
+    });
    
    
 
