@@ -53,19 +53,12 @@ $(document).ready(function(){
     
 
   
-   $('.pupop__open').on('click',function(){
-        
-        //что бы при открытии не закрывались другие окна, удалите строку ниже                  
-        /* $('.pupop').removeClass('pupop_active') */
+   $('.pupop__open').on('click',function(){                                   
         $(this).toggleClass('pupop__open_active')
         .closest('.pupop').toggleClass('pupop_active')
+        //что бы при открытии других окон не закрывалось открытое, закоментируйте строку ниже  
         .siblings('.pupop_active').removeClass('pupop_active') 
-
-
-
-
-        
-        
+ 
     });
 
 
