@@ -54,10 +54,14 @@ $(document).ready(function(){
 
   
    $('.pupop__open').on('click',function(){
-        
+        //что бы открывались сразу все окна, удалите строку ниже
+        $('.pupop').removeClass('pupop_active')
         $(this).toggleClass('pupop__open_active')
-        .parents('.pupop').toggleClass('pupop_active')
+        .closest('.pupop').toggleClass('pupop_active')
+        
     });
+
+    
    
    
 
