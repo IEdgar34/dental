@@ -54,14 +54,23 @@ $(document).ready(function(){
 
   
    $('.pupop__open').on('click',function(){
-        //что бы открывались сразу все окна, удалите строку ниже
-        $('.pupop').removeClass('pupop_active')
+        
+        //что бы при открытии не закрывались другие окна, удалите строку ниже                  
+        /* $('.pupop').removeClass('pupop_active') */
         $(this).toggleClass('pupop__open_active')
         .closest('.pupop').toggleClass('pupop_active')
+        .siblings('.pupop_active').removeClass('pupop_active') 
+
+
+
+
+        
         
     });
 
-    
+
+   
+   
    
    
 
