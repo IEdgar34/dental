@@ -57,8 +57,8 @@ $(document).ready(function(){
         $(this).toggleClass('pupop__open_active')
         .closest('.pupop').toggleClass('pupop_active')
         //что бы при открытии других окон не закрывалось открытое, закоментируйте строку ниже  
-        .siblings('.pupop_active').removeClass('pupop_active') 
- 
+        .siblings('.pupop_active').removeClass('pupop_active').find('.pupop__open_active').removeClass('pupop__open_active')
+        
     });
 
 
